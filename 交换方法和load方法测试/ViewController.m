@@ -6,6 +6,16 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "Person+Communicate.h"
+#import "Person+Eat.h"
+#import "YoungMan.h"
+#import "YoungMan+Work.h"
+#import "YoungMan+Cooking.h"
+#import "Student.h"
+#import "Student+Study.h"
+#import "Student+PlayGame.h"
+
 
 @interface ViewController ()
 

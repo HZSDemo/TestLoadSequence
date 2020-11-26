@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6EE73B32256F4A0100D550AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B31256F4A0100D550AC /* AppDelegate.m */; };
-		6EE73B35256F4A0100D550AC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B34256F4A0100D550AC /* SceneDelegate.m */; };
 		6EE73B38256F4A0100D550AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B37256F4A0100D550AC /* ViewController.m */; };
 		6EE73B3B256F4A0100D550AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE73B39256F4A0100D550AC /* Main.storyboard */; };
 		6EE73B3D256F4A0400D550AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE73B3C256F4A0400D550AC /* Assets.xcassets */; };
@@ -16,6 +15,15 @@
 		6EE73B43256F4A0400D550AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B42256F4A0400D550AC /* main.m */; };
 		6EE73B4D256F4A0400D550AC /* _____load____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B4C256F4A0400D550AC /* _____load____Tests.m */; };
 		6EE73B58256F4A0400D550AC /* _____load____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B57256F4A0400D550AC /* _____load____UITests.m */; };
+		6EE73B6D256F4A8300D550AC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B6C256F4A8300D550AC /* Person.m */; };
+		6EE73B73256F4AB600D550AC /* YoungMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B72256F4AB600D550AC /* YoungMan.m */; };
+		6EE73B79256F4AD100D550AC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B78256F4AD100D550AC /* Student.m */; };
+		6EE73B7F256F4B2D00D550AC /* Student+Study.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B7E256F4B2D00D550AC /* Student+Study.m */; };
+		6EE73B85256F4BB200D550AC /* Student+PlayGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B84256F4BB200D550AC /* Student+PlayGame.m */; };
+		6EE73B8B256F4BCC00D550AC /* YoungMan+Work.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B8A256F4BCC00D550AC /* YoungMan+Work.m */; };
+		6EE73B91256F4BF200D550AC /* YoungMan+Cooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B90256F4BF200D550AC /* YoungMan+Cooking.m */; };
+		6EE73B97256F4C0D00D550AC /* Person+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B96256F4C0D00D550AC /* Person+Eat.m */; };
+		6EE73B9D256F4C6600D550AC /* Person+Communicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE73B9C256F4C6600D550AC /* Person+Communicate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		6EE73B2D256F4A0100D550AC /* 交换方法和load方法测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "交换方法和load方法测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE73B30256F4A0100D550AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EE73B31256F4A0100D550AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6EE73B33256F4A0100D550AC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6EE73B34256F4A0100D550AC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6EE73B36256F4A0100D550AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6EE73B37256F4A0100D550AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6EE73B3A256F4A0100D550AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +60,24 @@
 		6EE73B53256F4A0400D550AC /* 交换方法和load方法测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "交换方法和load方法测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE73B57256F4A0400D550AC /* _____load____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____load____UITests.m"; sourceTree = "<group>"; };
 		6EE73B59256F4A0400D550AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE73B6B256F4A8300D550AC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6EE73B6C256F4A8300D550AC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6EE73B71256F4AB600D550AC /* YoungMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoungMan.h; sourceTree = "<group>"; };
+		6EE73B72256F4AB600D550AC /* YoungMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungMan.m; sourceTree = "<group>"; };
+		6EE73B77256F4AD100D550AC /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		6EE73B78256F4AD100D550AC /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		6EE73B7D256F4B2D00D550AC /* Student+Study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Study.h"; sourceTree = "<group>"; };
+		6EE73B7E256F4B2D00D550AC /* Student+Study.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Study.m"; sourceTree = "<group>"; };
+		6EE73B83256F4BB200D550AC /* Student+PlayGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+PlayGame.h"; sourceTree = "<group>"; };
+		6EE73B84256F4BB200D550AC /* Student+PlayGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+PlayGame.m"; sourceTree = "<group>"; };
+		6EE73B89256F4BCC00D550AC /* YoungMan+Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoungMan+Work.h"; sourceTree = "<group>"; };
+		6EE73B8A256F4BCC00D550AC /* YoungMan+Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YoungMan+Work.m"; sourceTree = "<group>"; };
+		6EE73B8F256F4BF200D550AC /* YoungMan+Cooking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoungMan+Cooking.h"; sourceTree = "<group>"; };
+		6EE73B90256F4BF200D550AC /* YoungMan+Cooking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YoungMan+Cooking.m"; sourceTree = "<group>"; };
+		6EE73B95256F4C0D00D550AC /* Person+Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Eat.h"; sourceTree = "<group>"; };
+		6EE73B96256F4C0D00D550AC /* Person+Eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Eat.m"; sourceTree = "<group>"; };
+		6EE73B9B256F4C6600D550AC /* Person+Communicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Communicate.h"; sourceTree = "<group>"; };
+		6EE73B9C256F4C6600D550AC /* Person+Communicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Communicate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +130,6 @@
 			children = (
 				6EE73B30256F4A0100D550AC /* AppDelegate.h */,
 				6EE73B31256F4A0100D550AC /* AppDelegate.m */,
-				6EE73B33256F4A0100D550AC /* SceneDelegate.h */,
-				6EE73B34256F4A0100D550AC /* SceneDelegate.m */,
 				6EE73B36256F4A0100D550AC /* ViewController.h */,
 				6EE73B37256F4A0100D550AC /* ViewController.m */,
 				6EE73B39256F4A0100D550AC /* Main.storyboard */,
@@ -115,6 +137,24 @@
 				6EE73B3E256F4A0400D550AC /* LaunchScreen.storyboard */,
 				6EE73B41256F4A0400D550AC /* Info.plist */,
 				6EE73B42256F4A0400D550AC /* main.m */,
+				6EE73B6B256F4A8300D550AC /* Person.h */,
+				6EE73B6C256F4A8300D550AC /* Person.m */,
+				6EE73B9B256F4C6600D550AC /* Person+Communicate.h */,
+				6EE73B9C256F4C6600D550AC /* Person+Communicate.m */,
+				6EE73B95256F4C0D00D550AC /* Person+Eat.h */,
+				6EE73B96256F4C0D00D550AC /* Person+Eat.m */,
+				6EE73B71256F4AB600D550AC /* YoungMan.h */,
+				6EE73B72256F4AB600D550AC /* YoungMan.m */,
+				6EE73B89256F4BCC00D550AC /* YoungMan+Work.h */,
+				6EE73B8A256F4BCC00D550AC /* YoungMan+Work.m */,
+				6EE73B8F256F4BF200D550AC /* YoungMan+Cooking.h */,
+				6EE73B90256F4BF200D550AC /* YoungMan+Cooking.m */,
+				6EE73B77256F4AD100D550AC /* Student.h */,
+				6EE73B78256F4AD100D550AC /* Student.m */,
+				6EE73B7D256F4B2D00D550AC /* Student+Study.h */,
+				6EE73B7E256F4B2D00D550AC /* Student+Study.m */,
+				6EE73B83256F4BB200D550AC /* Student+PlayGame.h */,
+				6EE73B84256F4BB200D550AC /* Student+PlayGame.m */,
 			);
 			path = "交换方法和load方法测试";
 			sourceTree = "<group>";
@@ -266,10 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE73B38256F4A0100D550AC /* ViewController.m in Sources */,
+				6EE73B9D256F4C6600D550AC /* Person+Communicate.m in Sources */,
+				6EE73B73256F4AB600D550AC /* YoungMan.m in Sources */,
+				6EE73B6D256F4A8300D550AC /* Person.m in Sources */,
+				6EE73B79256F4AD100D550AC /* Student.m in Sources */,
+				6EE73B8B256F4BCC00D550AC /* YoungMan+Work.m in Sources */,
+				6EE73B91256F4BF200D550AC /* YoungMan+Cooking.m in Sources */,
+				6EE73B7F256F4B2D00D550AC /* Student+Study.m in Sources */,
+				6EE73B97256F4C0D00D550AC /* Person+Eat.m in Sources */,
+				6EE73B85256F4BB200D550AC /* Student+PlayGame.m in Sources */,
 				6EE73B32256F4A0100D550AC /* AppDelegate.m in Sources */,
 				6EE73B43256F4A0400D550AC /* main.m in Sources */,
-				6EE73B35256F4A0100D550AC /* SceneDelegate.m in Sources */,
+				6EE73B38256F4A0100D550AC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
